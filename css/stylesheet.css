@@ -1,0 +1,20 @@
+body {
+    background-color:whitesmoke;
+    margin: -3px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    background-color:darkslategray;
+    justify-content: center;
+    padding: 15px;
+}
+.navbar h2 {
+    
+    color: white;
+}
+
+
+

@@ -1,0 +1,49 @@
+.fullScreenSpill {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 20vh 40vh;
+    height: 100vh
+}
+.logoSpill {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.beskrivelseSpill {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.menuSpill {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    list-style: none;
+    justify-self: center;
+
+
+}
+.menuSpill a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-size: 2em;
+    padding: 20px;
+    color: white;
+}
+.menuSpill a:hover {
+    font-weight: bold;
+}
+.menuSpill li {
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    background-color: darkslategray;
+    border-radius: 10px;
+}
