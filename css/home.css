@@ -1,7 +1,12 @@
 @font-face {
     font-family: 'corona';
-    src:  url(../fonts/corona.ttf) format('woff2'),
-          url(../fonts/corona.ttf) format('woff');
+    src: url('../fonts/corona.eot');
+    src: url('../fonts/corona.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/corona.woff') format('woff'),
+      url('../fonts/corona.ttf') format('truetype'),
+      url('../fonts/corona.svg#providence-bold') format('svg');
+    /*src:  url(../fonts/corona.ttf) format('woff2'),
+          url(../fonts/corona.ttf) format('woff'); */
   }
 
 
