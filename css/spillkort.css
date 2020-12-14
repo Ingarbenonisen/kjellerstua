@@ -36,10 +36,11 @@ body {
     grid-row-end: end;
 
     background-color:transparent;
+    justify-content: center;
 }
 .beskrivelseKort p {
     font-size: 18px;
-    padding: 15px;
+    padding: 30px;
 }
 .forrige {
     grid-column-start: 1;
@@ -48,7 +49,14 @@ body {
     grid-row-start: 1;
     grid-row-end: end;
 
-    background-color: turquoise;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+}
+.forrige img {
+    width: 40%;
+    align-self: center;
+    
 }
 .neste {
     grid-column-start: 3;
@@ -57,5 +65,12 @@ body {
     grid-row-start: 1;
     grid-row-end: end;
 
-    background-color: turquoise;
+    background-color: transparent;
+    display: flex;
+
+}
+.neste img {
+    width: 40%;
+ 
+    align-self: center;
 }
