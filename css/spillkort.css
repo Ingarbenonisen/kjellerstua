@@ -21,12 +21,6 @@ body {
     grid-row-end: 2;
 
     background-color:transparent;
-    text-align: center;
-    color: black;
-}
-.titleKort h1 {
-    font-size: 36px;
-    padding: 15px;
 }
 .beskrivelseKort {
     grid-column-start: 2;
@@ -38,9 +32,15 @@ body {
     background-color:transparent;
     justify-content: center;
 }
+.beskrivelseKort h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+}
 .beskrivelseKort p {
     font-size: 18px;
     padding: 30px;
+    text-align: center;
 }
 .forrige {
     grid-column-start: 1;
@@ -51,12 +51,13 @@ body {
 
     background-color: transparent;
     display: flex;
-    justify-content: flex-end;
+    text-align: center;
 }
-.forrige img {
-    width: 40%;
+.forrige a {
     align-self: center;
-    
+}
+.forrige a img {
+    width: 40%; 
 }
 .neste {
     grid-column-start: 3;
@@ -67,10 +68,20 @@ body {
 
     background-color: transparent;
     display: flex;
+    text-align: center;
+}
+.neste a {
+    align-self: center;
 
 }
-.neste img {
+.neste a img {
     width: 40%;
- 
-    align-self: center;
+}
+@media screen and (max-width: 600px){
+    .forrige a img {
+        width: 100%;
+    }
+    .neste a img {
+        width: 100%;
+    }
 }
