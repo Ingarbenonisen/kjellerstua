@@ -60,8 +60,15 @@
     border-radius: 5px;
     font-size: 1.25em;
 }
+.startKnapp button {
+    margin: 15px;
+    width: 15%;
+}
 @media screen and (max-width: 600px) {
     .inputName input {
         width: 60%;
+    }
+    .startKnapp button {
+        width: 30%;
     }
 }
