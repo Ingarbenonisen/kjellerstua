@@ -16,3 +16,29 @@
     padding: 15px;
 }
 
+.footerHome {
+    display: grid;
+    min-height: 10vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    width: 100vw;
+    background-color: #00509d;
+    text-align: center;
+
+
+}
+.footerBar {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    background-color:transparent;
+    justify-content: center;   
+
+}
+.footerHome h3 {
+    color: white;
+    font-size: 1.5em;
+    padding: 15px
+}

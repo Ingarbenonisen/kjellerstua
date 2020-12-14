@@ -1,8 +1,60 @@
+.fullScreenSS {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 40vw 20vw 40vw;
+    grid-template-rows: 40fr 50fr;
+}
+.titleSS {
+    grid-column-start: 1;
+    grid-column-end: end;
 
-.leggTilSPillere {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    text-align: center;
+}
+.titleSS h1 {
+    font-family: 'corona';
+    font-size: 5em;
+    color: #0d1d51;
+    text-align: center;
+    font-weight: lighter;
+}
+.titleSS h2 {
+    font-family: 'corona';
+    font-size: 3em;
+    color: #0d1d51;
+    text-align: center;
+    font-weight: lighter;
+}   
+.titleSS img {
+    width: 20%;
+}
+@media screen and (max-width: 600px) {
+    .titleSS img {
+        width: 50%;
+    }
+} 
+
+.inputName {
     grid-column-start: 1;
     grid-column-end: end;
 
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: end;
+
+    text-align: center;
+}
+.inputName input {
+    width: 30%;
+    padding: 10px;
+    border-color: #fac90d;
+    border-radius: 5px;
+    color: grey;
+}
+.inputName button {
+    padding: 10px;
+    border-color: #fac90d;
+    background-color: transparent;
+    border-radius: 5px;
 }
