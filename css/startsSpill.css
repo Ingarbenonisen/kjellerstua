@@ -50,11 +50,12 @@
     padding: 10px;
     border-color: #fac90d;
     border-radius: 5px;
-    color: grey;
+    font-size: 1.25em;
 }
 .inputName button {
     padding: 10px;
     border-color: #fac90d;
     background-color: transparent;
     border-radius: 5px;
+    font-size: 1.25em;
 }
