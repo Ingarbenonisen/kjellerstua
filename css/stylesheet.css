@@ -26,19 +26,32 @@
     background-color: #00509d;
     text-align: center;
 
-
 }
-.footerBar {
+.socialMenu {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+    text-align: center;
+}
+.someIcons {
     display: flex;
     flex-direction: row;
-
-    height: auto;
-    background-color:transparent;
-    justify-content: center;   
-
+    justify-content: center;
+    padding: 15px;
 }
-.footerHome h3 {
+.someIcons h3 {
+    color: white;
+    font-size: 1.25em;
+    padding: 15px;
+    margin-right: 60px;
+}
+.someIcons i {
     color: white;
     font-size: 1.5em;
-    padding: 15px
+    border-radius: 50%;
+    padding: 15px;
 }
+.someIcons i:hover {
+    font-weight: bold;
+}
+
