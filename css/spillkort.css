@@ -34,12 +34,13 @@ body {
 }
 .beskrivelseKort h1 {
     text-align: center;
-    padding: 30px;
+    padding: 15px;
     font-size: 36px;
+    margin-bottom: 15px;
 }
 .beskrivelseKort p {
     font-size: 18px;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
 }
 .forrige {
@@ -58,6 +59,11 @@ body {
 }
 .forrige a img {
     width: 40%; 
+}
+@media screen and (max-width: 600px){
+    .forrige a img {
+        width: 100%;
+    }
 }
 .neste {
     grid-column-start: 3;
@@ -78,9 +84,6 @@ body {
     width: 40%;
 }
 @media screen and (max-width: 600px){
-    .forrige a img {
-        width: 100%;
-    }
     .neste a img {
         width: 100%;
     }
