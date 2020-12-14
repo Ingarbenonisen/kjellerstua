@@ -54,4 +54,9 @@
 .someIcons i:hover {
     font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+   .someIcons h3 {
+       margin-right: auto;
+   }
+}
 
