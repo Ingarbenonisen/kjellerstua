@@ -34,6 +34,7 @@
     .titleSS img {
         width: 50%;
     }
+
 } 
 
 .inputName {
@@ -46,7 +47,7 @@
     text-align: center;
 }
 .inputName input {
-    width: 50%;
+    width: 30%;
     padding: 10px;
     border-color: #fac90d;
     border-radius: 5px;
@@ -58,4 +59,9 @@
     background-color: transparent;
     border-radius: 5px;
     font-size: 1.25em;
+}
+@media screen and (max-width: 600px) {
+    .inputName input {
+        width: 60%;
+    }
 }
