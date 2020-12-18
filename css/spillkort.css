@@ -13,6 +13,24 @@ body {
     margin: 5%;
     border-radius: 10px;
 }
+.hjemKnapp {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    padding: 15px;
+}
+.hjemKnapp img {
+    width: 20%;
+}
+@media screen and (max-width: 600px) {
+    .hjemKnapp img {
+        width: 100%;
+    }
+}
+
 .titleKort {
     grid-column-start: 2;
     grid-column-end: 3;

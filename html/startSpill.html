@@ -15,16 +15,23 @@
 </head>
 <body>
 <div class="fullScreenSS">
+    <div class="hjemKnapp">
+        <a href="../../index.html">
+            <img src="../images/home_icon.png" alt="home icon">
+        </a>
+    </div>
     <div class="titleSS">
         <a href="../index.html"><img src="../images/coronaCrown.png" alt="corona crown"></a>
         <h1> Legg til spillere </h1>
     </div>
 
     <div class="inputName">
-        <div><p id="spillerListe"></p></div>
         <div>
-        <input type="text" name="Legg til spillere" id="LeggTilSpillere">
-        <button id="leggtilSpiller">Legg til</button>
+            <input type="text" name="Legg til spillere" id="spillerNavn" style="text-transform:capitalize">
+            <button id="leggtilSpiller" onclick="leggTilSpiller()">Legg til</button>
+        </div>
+        <div>
+            <p id="spillerListe" style="text-transform:capitalize"></p>
         </div>
         <div class="startKnapp">
             <a href="spillkort/kort1.html"><button id="startKnapp">Start</button></a>
@@ -38,9 +45,11 @@
             <h3>Ingar Benonisen</h3>
             <a href="https://www.facebook.com/ingar.benonisen" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="https://www.snapchat.com/add/ingar.andre?fbclid=IwAR3e-_KS44co4Bu0XAb3bWv5LkaCK5qnsolFmV1OtUIH_wwcyRWLX_K9rLY" target="_blank"><i class="fa fa-snapchat"></i></a>
-            <a href="https://www.instagram.com/ingarbenonisen/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.instagram.com/625ingar/" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
     </div>
 </div>
+
+<script src="../js/script.js"></script>
 </body>
 </html>

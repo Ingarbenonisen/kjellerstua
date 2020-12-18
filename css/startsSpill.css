@@ -4,6 +4,23 @@
     grid-template-columns: 40vw 20vw 40vw;
     grid-template-rows: 40fr 50fr;
 }
+.hjemKnapp {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    padding: 15px;
+}
+.hjemKnapp img {
+    width: 10%;
+}
+@media screen and (max-width: 600px) {
+    .hjemKnapp img {
+        width: 20%;
+    }
+}
 .titleSS {
     grid-column-start: 1;
     grid-column-end: end;
@@ -59,6 +76,14 @@
     background-color: transparent;
     border-radius: 5px;
     font-size: 1.25em;
+}
+#spillerListe {
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;        
+}
+#spillerListe ::first-letter {
+    text-transform: capitalize;
 }
 .startKnapp button {
     margin: 15px;
