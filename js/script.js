@@ -17,4 +17,4 @@ function leggTilSpiller () {
 }
 
 var randomNavn = spillerListe [Math.floor(Math.random()*spillerListe.length)];
-document.getElementById("spillerNavnPrint").value = randomNavn;
+document.body.innerHTML = randomNavn("randomNavnPrint");
