@@ -18,6 +18,8 @@
         "kort16.html",
         "kort17.html",
         "kort18.html",
+        "kort19.html",
+        "kort20.html"
     ];
 
     function randomSite() {

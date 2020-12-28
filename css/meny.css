@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'blondie';
+    src: url('../fonts/blondie.eot');
+    src: url('../fonts/blondie.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/blondie.woff') format('woff'),
+      url('../fonts/blondie.ttf') format('truetype'),
+      url('../fonts/blondie.svg#providence-bold') format('svg');
+
+  }
+
+.font h1 {
+    font-family: 'blondie';
+    text-transform: uppercase;
+}

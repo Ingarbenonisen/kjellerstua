@@ -17,4 +17,14 @@ function leggTilSpiller () {
 }
 
 var randomNavn = spillerListe [Math.floor(Math.random()*spillerListe.length)];
-document.body.innerHTML = randomNavn("randomNavnPrint");
+document.getElementById("randomNavnPrint").innerHTML = randomNavn;
+
+function randomNavn() {
+    var i = parseInt(Math.random() * spillerListe.length);
+    document.getElementById("randomNavnPrint").innerHTML = spillerListe[i];
+}
+
+
+
+
+
